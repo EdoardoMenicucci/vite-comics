@@ -69,3 +69,11 @@ body {
 .gold {
   background-color: goldenrod;
 }
+
+.z-positive {
+  z-index: 3;
+}
+
+.z-negative {
+  z-index: 1;
+}

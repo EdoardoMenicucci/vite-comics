@@ -46,7 +46,7 @@ export default {
          <h2>SITES</h2>
           <a href="#" v-for="elemento , i in sites">{{ elemento }}</a>
       </div>
-      <div class="ps-5">
+      <div class="ps-5 z-negative">
          <img :src="urlImg" alt="">
       </div>
     </div>
@@ -76,13 +76,13 @@ footer {
   width: 100%;
   background-image: url(/public/img/footer-bg.jpg);
   position: relative;
+  overflow: hidden;
 }
 
 img{
-  height: 100%;
+  height: 130%;
   position: absolute;
-  top: 0rem;
+  top:-3rem;
   right: 25rem;
-  z-index: 1;
 }
 </style>

@@ -26,7 +26,7 @@ export default {
 
 <template>
   <!-- TEMPLATE html-->
-  <div class="bg-blue">
+  <div class="bg-blue z-positive">
     <section class="flex-row container">
         <span v-for="elemento , i in arrayObjects"><img :src="elemento.url" alt="">{{ elemento.name }}</span>
     </section>
@@ -39,7 +39,6 @@ export default {
 /* STILE */
 .bg-blue{
     background-color: rgb(59, 65, 255);
-    z-index: 99;
 }
 section{
     height: 9rem;
