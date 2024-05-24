@@ -39,6 +39,7 @@ export default {
 /* STILE */
 .bg-blue{
     background-color: rgb(59, 65, 255);
+    z-index: 99;
 }
 section{
     height: 9rem;

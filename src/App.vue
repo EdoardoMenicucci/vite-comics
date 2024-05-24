@@ -7,6 +7,8 @@ import AppContent1 from './components/AppContent1.vue';
 
 import AppContentBlue from './components/AppContentBlue.vue';
 
+import AppFooter  from './components/AppFooter.vue';
+
 // SCRIPT
 export default {
   // QUA DICHIARO I COMPONENTI IMPORTATI
@@ -15,6 +17,7 @@ export default {
     AppHeader,
     AppContent1,
     AppContentBlue,
+    AppFooter,
   },
   data() {
     return {
@@ -35,6 +38,7 @@ export default {
 <AppHeader />
 <AppContent1 />
 <AppContentBlue />
+<AppFooter />
 
 </template>
 
