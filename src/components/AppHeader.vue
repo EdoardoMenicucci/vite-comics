@@ -34,8 +34,8 @@ export default {
   <!-- TEMPLATE html-->
   <header class="content-padding flex-row">
     <div class="container flex-row">
-      <div><img src="../img/dc-logo.png" alt=""></div>
-      <div><span v-for="link ,i in links">{{ link.name.toUpperCase() }}</span></div>
+      <div><img :src="urlLogo" alt=""></div>
+      <div><span class="links" v-for="link ,i in links">{{ link.name.toUpperCase() }} <span class="underline"></span> </span></div>
     </div>
   </header>
 
@@ -51,9 +51,31 @@ header{
   background-color: white;
   font-weight: 700;
 }
-span{
+.links{
   padding: 0 0.6rem;
+  position: relative;
 }
+
+.links:hover{
+  color: rgb(40, 40, 255);
+}
+
+
+.underline{
+  display: none;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  bottom: -3rem;
+  left: -0rem;
+}
+
+.links:hover .underline{
+  display: block;
+  border-bottom: 3px solid blue;
+  color: rgb(49, 49, 255);
+}
+
 .container{
   align-items: center;
 }
