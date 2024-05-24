@@ -38,7 +38,7 @@ export default {
 <style scoped>
 /* STILE */
 .bg-blue{
-    background-color: rgb(59, 65, 255);
+    background-color: rgb(82, 87, 255);
 }
 section{
     height: 9rem;

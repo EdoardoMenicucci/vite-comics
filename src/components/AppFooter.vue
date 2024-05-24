@@ -32,17 +32,17 @@ export default {
   <!-- TEMPLATE html-->
   <footer class="pt-5">
     <div class="container d-flex">
-      <div class="left-column flex-columns">
+      <div class="flex-columns">
          <h2>DC COMICS</h2>
           <a href="#" v-for="elemento , i in dcComics">{{ elemento }}</a>
           <h2 class="pt-5">SHOP</h2>
           <a href="#" v-for="elemento , i in shop">{{ elemento }}</a>
       </div>
-      <div class="ps-3 left-column flex-columns">
+      <div class="ps-5 flex-columns">
          <h2>DC</h2>
           <a href="#" v-for="elemento , i in dc">{{ elemento }}</a>
       </div>
-      <div class="ps-3 left-column flex-columns">
+      <div class="ps-5 flex-columns">
          <h2>SITES</h2>
           <a href="#" v-for="elemento , i in sites">{{ elemento }}</a>
       </div>
